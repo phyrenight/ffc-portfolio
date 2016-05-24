@@ -9,24 +9,25 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
   </head>
   <body>
-<header class="container-fluid text-center">
+<header class="container text-center">
   <h1>My Portfolio</h1>
   <nav class="row">
-    <p class="#">Marc Preston</p>
-    <a class="#" href="#home">Home</a>
-    <a class="#" href="#bio">Bio</a>
-    <a class="#" href="#projects">Projects</a>
-    <a class="#" href="#contacts">Contacts</a>
+    <p class="col-sm-2 col-md-2 col-lg-2">Marc Preston</p>
+    <a class="col-sm-offset-6 col-md-offset-6 col-lg-offset-6 col-sm-1 col-md-1 col-lg-1" href="#home">Home</a>
+    <a class="col-sm-1 col-md-1 col-lg-1" href="#bio">Bio</a>
+    <a class="col-sm-1 col-md-1 col-lg-1" href="#projects">Projects</a>
+    <a class="col-sm-1 col-md-1 col-lg-1" href="#contacts">Contacts</a>
   </nav>
+  <hr>
 </header>
-<main>
-  <article id="home" class="container-fluid">
-    <section class="row">
+<article class="container">
+  <section id="home">
+    <div class="row">
       <div class="#">
-      <h3>Marc preston</h3>
+      <h3 class="text-center">Future Corp.</h3>
         </div>
         <div class="row">
-      <blockquote class="#">
+      <blockquote class="col-sm-6 col-md-6 col-lg-6">
         <p>“When you want to succeed as bad as you want to breathe, then you'll be successful.”
         </p>
         <footer>
@@ -34,51 +35,34 @@
           </cite>
         </footer>
       </blockquote>
+      <div class=" col-sm-offset-2 col-md-offset-2 col-lg-offset-2 col-sm-4 col-md-4 col-lg-4">
+      <img src="#" alt="#">
       </div>
-        </div>
-    </section>
+    </div>
     <hr/>
-    <form class="row">
-      <input class="#" type="button" value="Twitter">
-      <input class="#" type="button" value="Github">
-      <input class="#" type="button" value="Linkedin">
-      <input class="#" type="button" value="Free Code Camp">
-    </form>
-  </article>
-  <article id="bio">
-    <h2>Bio...</h2>
-    <section class="row">
-      <div class="#">
-        <p>Just a self taught programmer.</p>
-      </div>
-      <div class="#">
-        <img src="#"></img>
-      </div>
-    </section>
-  </article>
-  <article id="projects"class="container-fluid">
+  </section>
+  <section id="projects">
     <h2>Recent Projects</h2>
-    <section class="row">
-      <a class="#" href="#"><img src="#"></img>
+    <div class="row">
+      <a class=" col-sm-offset-3 col-md-offset-3 col-lg-offset-3 text-center col-sm-2 col-md-2 col-lg-2" href="#"><img src="#" alt="#"></a>
+      <a class=" text-center col-sm-2 col-md-2 col-lg-2" target="_blank"href="#"><img src="#" alt="#"></a>
+      <a class=" text-center col-sm-2 col-md-2 col-lg-2" href="#" target="_blank"><img src="#" alt="#">
       </a>
-      <a class="#" href="#"><img src="#"></img>
+    </div>
+    <div class="row">
+      <a class="col-sm-offset-3 col-md-offset-3 col-lg-offset-3 col-sm-2 col-md-2 col-lg-2 text-center" href="#"><img src="#" alt="#">
       </a>
-      <a class="#" href="#"><img src="#"></img>
-      </a>
-    </section>
-    <section class="row">
-      <a class="#" href="#"><img src="#"></img>
-      </a>
-      <a class="#" href="#"><img src="#"></img</a>
-        <a class="#" href="#"><img src="#" </img></a>
-    </section>
-  </article>
-  <article id="contacts" class="container-fluid">
-    <section class="row">
-      <div class="#">
-      <h2> How to contact me...</h2>
+      <a class="col-sm-2 col-md-2 col-lg-2 text-center" href="#"><img src="#"alt="#"></a>
+        <a class="col-sm-2 col-md-2 col-lg-2 text-center" href="#"><img src="#" alt="#"></a>
+    </div>
+   </section>
+   <hr>
+   <section id="contacts">
+    <div class="row">
+         <h2 class="text-center col-sm-6 col-md-6 col-lg-6"> How to contact me...</h2>
       </div>
-      <div class="#">
+      <div class="row">
+      <div class="col-sm-offset-8 col-md-offset-8 col-lg-offset-8 col-sm-4 col-md-4 col-lg-4">
       <form>
         <ul>
         <li><input type="button" value="Twitter"></li>
@@ -88,16 +72,18 @@
         </ul>
       </form>
         </div>
-      </section>
-  </article>
-  <footer class="container-fluid">
+      </div>
+  </section>
+  <hr>
+  <footer>
     <div class="row">
-      <a class="#" href="#home">Home</a>
-      <a class="#" href="#bio">Bio</a>
-      <a class="#" href="#project">Project</a>
-      <a class="#" href="#contact">Conact Me</a>
+      <a class="col-sm-2 col-md-2 col-lg-2 col-sm-offset-2 col-md-offset-2 col-lg-offset-2" href="#home">
+      Home</a>
+      <a class="col-sm-2 col-md-2 col-lg-2" href="#bio">Bio</a>
+      <a class="col-sm-2 col-md-2 col-lg-2" href="#project">Project</a>
+      <a class="col-sm-2 col-md-2 col-lg-2" href="#contact">Conact Me</a>
     </div>
   </footer>
-</main>
+</article>
 </body>
 </html>
